@@ -1,0 +1,25 @@
+console.log()	// check 
+
+dau backstic ``	// dung duoc '' "" 
+
+ctrl+/	// ghi chu
+
+let e=	+d	// chuyen kieu tuong duong ham Number()
+
+template strings -> ${} dung trong ``	// gia tri bien trong chuoi
+
+ES6: -> dung let thay var
+
+key: khong dung dau cach
+
+so sanh nen dung ===
+
+let: khai bao cuc bo;	var: khai toan cuc, de nham lan khi code
+
+for: khi biet truoc so lan lap; while: khi tim duoc thi dung
+
+Arrow funtion	=	=>	
+
+promises => tao cam giac giong code thuong: tuong minh hon, de hieu hon
+
+... =>  copy

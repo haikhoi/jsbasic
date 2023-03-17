@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (this.readyState == 4 && request.status === 200) {
+            // Typical action to be performed when the document is ready:
+            console.log('>>> check :', request.responseText);
+        }
+    };
+    request.open("GET", "https://jsonplaceholder.typicode.com/todos/2", true);
+    request.send();
+</script>
+
+<body>
+    <h1>Hello world JS with ESEC</h1>
+</body>
+
+</html>
